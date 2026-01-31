@@ -177,8 +177,12 @@ nav {
     align-items: start;
 }
 
-.about-image .placeholder-image {
-    height: 400px;
+.about-image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .about-content h2 {
@@ -591,8 +595,9 @@ footer {
         gap: 40px;
     }
 
-    .about-image .placeholder-image {
-        height: 300px;
+    .about-image img {
+        width: 220px;
+        height: 220px;
     }
 
     .feature-block {
